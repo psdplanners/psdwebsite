@@ -1,0 +1,22 @@
+.app__footer {
+  margin: 20px;
+  margin-bottom: 5px;
+  background-color: #2a2b2c;
+  padding: 10px;
+}
+
+.footerImageClass {
+  padding: 0px;
+}
+
+.footerImage{
+  padding-top: 120px;
+  padding-left:0px;
+  width: 200px;
+}
+.contactUs {
+  color: rgb(211, 208, 208);
+  font-weight: 700;
+  text-align: end;
+  padding-top: 50px;
+}

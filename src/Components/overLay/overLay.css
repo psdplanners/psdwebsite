@@ -1,0 +1,45 @@
+.overLayLogo {
+  height: 60px;
+  border-radius: 20%;
+}
+
+.overLayText {
+  font-size: 25px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.655);
+}
+.nav-item {
+  width: 200px;
+  margin: 10px;
+  padding: 0px 10px;
+  text-align: left;
+}
+.nav-item :hover {
+  animation-name: hoverAnimation;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+}
+.overLayText {
+  height: 25px;
+}
+
+.overLayText :hover {
+  animation-name: hoverAnimation;
+  animation-duration: 0.5s;
+  animation-timing-function: ease;
+}
+@keyframes hoverAnimation {
+  from {
+    background-color: #8ee04ae2;
+    padding-left: 10px;
+    color: rgb(52, 46, 46);
+  }
+  to {
+    background-color: #88d24bc7;
+    padding-left: 13px;
+    color: white;
+  }
+}
